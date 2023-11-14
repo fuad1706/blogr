@@ -9,7 +9,7 @@
     height: 700px;
     background-image: url(./assets/bg-pattern-intro-desktop.svg);
     background-size: cover;
-    background-position: center;
+    background-position: 50% right;
     background-repeat: no-repeat;
     background-color: hsl(356, 100%, 66%);
     border-bottom-left-radius: 70px;
@@ -132,8 +132,61 @@ nav ul li a{
     flex-direction: column;
     margin-top: 200px;
     margin-left: 100px;
+    width: 100%;
 }
 
-.writeup div h2{
-    margin: 0 auto 0 auto;
+.writeup .fut-cont h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.inner-cont h3{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.inner-cont p{
+    margin-bottom: 70px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.inner-cont2 h3{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.inner-cont2 p{
+    line-height: 1.5;
+    font-size: 20px;
+    margin-bottom: 200px;
+}
+
+.last-img{
+    position: absolute;
+    transform: translateX(300px);
+    top: 0;
+    right: 0;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+.bluebox{
+    width: 100%;
+    height: 400px;
+    background-color: hsl(237, 17%, 21%);
+    background-image: url(./assets/bg-pattern-circles.svg);
+    background-size: 50% auto;
+    background-position: 50% left;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+    position: relative;
+}
+
+.ph-img{
+    position: absolute;
+    top: -70px;
+    bottom: 0px;
+    left: 50px;
+
 }
