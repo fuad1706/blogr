@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .firstsec {
@@ -13,12 +13,12 @@
     background-repeat: no-repeat;
     background-color: hsl(356, 100%, 66%);
     border-bottom-left-radius: 70px;
+    text-align: center;
 }
 
 .nav-bar {
     padding: 50px 50px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -41,7 +41,7 @@ nav ul {
     justify-content: space-around;
 }
 nav ul li {
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 nav ul li a{
@@ -69,5 +69,45 @@ nav ul li a{
 
 .drop-down:hover .drop-down-content{
     display: block;
+}
+.harmburger{
+    display: none;
+}
+
+#sign, #start{
+    border-radius: 30px;
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.write-up{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.write-up h2{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.write-up p{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#learn{
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
