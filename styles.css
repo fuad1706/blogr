@@ -111,3 +111,29 @@ nav ul li a{
     font-weight: bold;
 }
 
+.future{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.circle-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(300px);
+    z-index: -1;
+    opacity: 0.5;
+
+}
+.writeup{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.writeup div h2{
+    margin: 0 auto 0 auto;
+}
