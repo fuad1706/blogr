@@ -12,6 +12,11 @@
     display: none;
    }
 
+   .nav-links .show-menu{
+    display: flex;
+    flex-direction: column;
+   }
+
    .nav-bar .harmburger{
     display: block;
     margin-left: 0;
@@ -46,19 +51,39 @@
 .write-up p{
     font-size: 20px;
 }
+
+.writeup{
+    margin: 0;
+    align-items: center;
+    text-align: center;
+
+}
 .desktop{
-    margin-top: 0;
-    margin-bottom: 0;
     width: 100%;
     height: auto;
-    transform: translateX(0);
-    top: 0;
-    bottom: 0;
+    transform: translateX(-280px);
+    z-index: 1;
 }
 
-.fut-cont > h2{
-    font-size: 10px;
+
+.writeup .fut-cont h2{
+    font-size: 25px;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
+
+.inner-cont h3{
+    margin-top: 250px;
+    font-size: 25px;
+}
+.inner-cont p, .inner-cont2 p {
+    font-size: 18px;
+}
+
+.ph-img img{
+    display: none;
+}
+
 
 
 
