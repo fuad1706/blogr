@@ -81,8 +81,37 @@
 }
 
 .ph-img img{
-    display: none;
+    width: 300px;
+    position: absolute;
+    top: -70px;
 }
+.bluebox-cont{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.bluebox-cont h2 {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+
+.bluebox-cont p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 20px;
+}
+
+.lap-cont{
+    
+}
+
+.laptop img{
+    width: 300px;
+    transform: translateX(600px);
+}
+
+
 
 
 
