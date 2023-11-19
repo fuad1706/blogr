@@ -231,6 +231,8 @@ nav ul li a{
 
 .lap-cont{
     margin-left: -500px;
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
 .lap-cont1 h2{
