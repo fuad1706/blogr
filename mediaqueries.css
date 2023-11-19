@@ -12,10 +12,30 @@
     display: none;
    }
 
-   .nav-links .show-menu{
+   .navLinks.show-menu {
     display: flex;
     flex-direction: column;
-   }
+    background-color: rgb(195, 22, 22);
+    position: absolute;
+    top: 80px; 
+    right: 0;
+    width: 100%;
+    height: 30%;
+    z-index: 1;
+}
+
+.navLinks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navLinks ul li {
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
 
    .nav-bar .harmburger{
     display: block;
