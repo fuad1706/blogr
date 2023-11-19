@@ -11,6 +11,9 @@
    nav{
     display: none;
    }
+   .nav-link, .nav-link2{
+        display: block; 2033937845 uba
+   }
 
    .navLinks.show-menu {
     display: flex;
@@ -20,7 +23,7 @@
     top: 80px; 
     right: 0;
     width: 100%;
-    height: 30%;
+    height: 20%;
     z-index: 1;
 }
 
