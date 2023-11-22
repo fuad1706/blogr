@@ -1,6 +1,8 @@
     @media only screen and (max-width:700px){
         body{
             overflow-x: hidden;
+            text-align: center;
+            
         }
         .firstsec{
             /* align-items: center; */
@@ -114,14 +116,18 @@
     }
 
     .inner-cont h3{
+        width: 70%;
         margin-top: 250px;
         font-size: 25px;
-        word-wrap: break-word;
+    }
+
+    .inner-cont2 h3{
+        width: 70%;
+        font-size: 25px;
     }
     .inner-cont p, .inner-cont2 p {
+        width: 80%;
         font-size: 16px;
-        word-break: break-all;
-        text-align: justify;
     }
 
     .ph-img img{
@@ -131,6 +137,8 @@
     }
     .bluebox{
         margin-bottom: 70px;
+        align-items: center;
+        text-align: center;
     }
     .bluebox-cont{
         text-align: center;
@@ -139,13 +147,15 @@
         left: 0;
     }
     .bluebox-cont h2 {
+        width: 70%;
         color: rgb(255, 255, 255);
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .bluebox-cont p{
+        width: 60%;
         color: rgb(255, 255, 255);
-        font-size: 17px;
+        font-size: 13px;
         padding: 5px;
     }
 
@@ -174,6 +184,7 @@
     }
 
     .lap-cont1 p{
+        width: 80%;
         margin-bottom: 50px;
         font-size: 16px;
     }
@@ -183,6 +194,7 @@
     
 
     .lap-cont2 p{
+        width: 80%;
         margin-bottom: 200px;
         font-size: 16px;
     }
