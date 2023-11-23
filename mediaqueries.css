@@ -1,7 +1,13 @@
     @media only screen and (max-width:700px){
         body{
             overflow-x: hidden;
+            margin: 0;
+            padding: 0;
 
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
         }
 
         p {
@@ -15,6 +21,7 @@
 
         .firstsec{
             align-items: center;
+            background-position: center;
         }
 
 
@@ -141,7 +148,6 @@
     .inner-cont p, .inner-cont2 p {
         text-align: center;
         margin-left: auto;
-        margin-left: auto;
         width: 80%;
         font-size: 16px;
     }
@@ -170,10 +176,10 @@
     }
 
     .bluebox-cont p{
-        width: 60%;
+        width: 80%;
         color: rgb(255, 255, 255);
-        font-size: 13px;
-        padding: 10px;
+        font-size: 16px;
+        /* padding-bottom: 50px; */
     }
 
     .lap-cont{
