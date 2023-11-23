@@ -1,12 +1,23 @@
     @media only screen and (max-width:700px){
         body{
             overflow-x: hidden;
+
+        }
+
+        p {
             text-align: center;
-            
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            font-size: 16px;
         }
+
+
         .firstsec{
-            /* align-items: center; */
+            align-items: center;
         }
+
+
     .nav-bar{
         justify-content: space-between;
         padding: 50px 20px;
@@ -88,10 +99,6 @@
 
     }
     .desktop{
-        /* width: 100%; */
-        /* height: auto; */
-        /* transform: translateX(-280px); */
-        /* z-index: 1; */
         display: none;
     }
 
@@ -115,17 +122,26 @@
         display: block;
     }
 
+    .inner-cont{
+        text-align: center;
+    }
+
     .inner-cont h3{
+        display: inline-block;
         width: 70%;
         margin-top: 250px;
         font-size: 25px;
     }
 
     .inner-cont2 h3{
+        display: inline-block;
         width: 70%;
         font-size: 25px;
     }
     .inner-cont p, .inner-cont2 p {
+        text-align: center;
+        margin-left: auto;
+        margin-left: auto;
         width: 80%;
         font-size: 16px;
     }
@@ -147,6 +163,7 @@
         left: 0;
     }
     .bluebox-cont h2 {
+        display: inline-block;
         width: 70%;
         color: rgb(255, 255, 255);
         font-size: 25px;
@@ -156,7 +173,7 @@
         width: 60%;
         color: rgb(255, 255, 255);
         font-size: 13px;
-        padding: 5px;
+        padding: 10px;
     }
 
     .lap-cont{
@@ -195,7 +212,8 @@
 
     .lap-cont2 p{
         width: 80%;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
+        margin-left: auto;
         font-size: 16px;
     }
 
