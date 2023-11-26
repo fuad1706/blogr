@@ -190,13 +190,13 @@ nav ul li a{
     height: 400px;
     background-color: hsl(237, 17%, 21%);
     background-image: url(./assets/bg-pattern-circles.svg);
-    background-size: 50% auto;
-    background-position: 50% left;
+    background-size: 80%;
+    background-position: 10% 45%;
     background-repeat: no-repeat;
+    position: relative;
     align-items: center;
     border-bottom-left-radius: 70px;
     border-top-right-radius: 70px;
-    position: relative;
     margin-bottom: 200px;
     justify-content: space-around;
 }
